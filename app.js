@@ -5,6 +5,7 @@ const app = require('./config/server');
 // rotaMain(app);
 
 
-app.listen(3000, () => {
-    console.log('Servidor ON');
+var port = process.env.PORT || 3000;
+app.listen(port, () => {
+    console.log('Umbler listening on port %s', port);
 });
