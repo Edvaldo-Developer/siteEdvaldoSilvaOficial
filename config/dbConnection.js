@@ -8,6 +8,7 @@ var comMySQL = () => {
         password: 'pr6390721social4904',
         database: 'my_stack'
     });
+    
 }
 module.exports = () => {
     console.log('O autoload carregou o modulo de conexão com bd');

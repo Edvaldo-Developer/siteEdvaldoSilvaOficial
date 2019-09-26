@@ -5,7 +5,7 @@ module.exports = () => {
     }
 
     this.salvarContato = (contato, connection, callback) => {
-        connection.query('insert into contatos set ?', contato, callback)
+        connection.query('INSERT INTO CONTATOS SET ?', contato, callback)
     }
 
     return this;
