@@ -6,7 +6,7 @@ var comMySQL = () => {
         host: 'mysql669.umbler.com',
         user: 'edvaldofullstack',
         password: 'pr6390721social4904',
-        database: 'MY_STACK'
+        database: 'my_stack'
     });
 }
 module.exports = () => {
