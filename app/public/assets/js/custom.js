@@ -47,8 +47,8 @@
 
 		var typed = new Typed('#typed', {
 		    stringsElement: '#typed-strings',
-		    typeSpeed: 20,
-		    backSpeed: 20,
+		    typeSpeed: 50,
+		    backSpeed: 50,
 		    startDelay: 1000,
 		    loop: true,
 		    loopCount: Infinity
@@ -66,12 +66,22 @@
 				triggerOnce: true
 			});
 
-			$('.mu-css-bar').LineProgressbar({
+			$('.mu-javascript-bar').LineProgressbar({
 				percentage: 90,
 				triggerOnce: true
 			});
 
-			$('.mu-photoshop-bar').LineProgressbar({
+			$('.mu-angular-bar').LineProgressbar({
+				percentage: 10,
+				triggerOnce: true
+			});
+
+			$('.mu-ionic-bar').LineProgressbar({
+				percentage: 10,
+				triggerOnce: true
+			});
+
+			$('.mu-php-bar').LineProgressbar({
 				percentage: 85,
 				triggerOnce: true
 			});
