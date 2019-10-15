@@ -254,11 +254,11 @@ button:focus {
 	line-height: 18px;
 }
 
-.navbar-brand  {
+.navbar-brand {
 	margin-top: -7px;
-	border: 3px solid #fff;
-	border-radius: 5px;
+	font-family: 'Poppins', sans-serif;
 	font-weight: bolder;
+	text-transform: uppercase;
 }
 
 #mu-header.mu-fixed-nav {
@@ -326,16 +326,16 @@ button:focus {
 	background-attachment: fixed;
 	background-size: cover;
 	background-position: center center;
-	display: inline;
+	display: block;
 	float: left;
 	width: 100%;
 }
 
 .mu-featured-area {
-	display: inline;
+	display: block;
 	float: left;
 	width: 100%;
-	padding: 26% 8%;
+	padding: 20% 8%;
 	text-align: center;
 }
 
@@ -434,27 +434,28 @@ button:focus {
 	float: left;
 	width: 100%;
 }
+
 .mu-profile-img {
 	border-radius: 5px;
 	width: 100%;
 	margin-top: 45px;
 	margin-bottom: 60px;
 }
+
 .mu-assignments-check {
 	display: block;
 	padding: 15px;
-	
 }
 
 .mu-assignments-check .check-text {
 	font-size: 15px;
-	padding: 25px;		
-}
-.mu-assignments-check i {
- font-size: 32px;
- color: #43CD80;
+	padding: 25px;
 }
 
+.mu-assignments-check i {
+	font-size: 32px;
+	color: #43CD80;
+}
 
 .mu-about-content-right {
 	display: inline;
@@ -463,8 +464,8 @@ button:focus {
 	width: 100%;
 }
 
-
 /*=============================Classe para ajuste =============================================== */
+
 .mu-skill-progress-bar {
 	display: inline;
 	float: left;
@@ -474,6 +475,12 @@ button:focus {
 .mu-skill-progress-bar h3 {
 	margin-top: 15px;
 	padding: 2% 0;
+}
+
+.mu-pro-bar p {
+	text-indent: 30px;
+	text-align: justify;
+	letter-spacing: -1px;
 }
 
 .mu-skill-progress-bar>span {
@@ -488,23 +495,24 @@ button:focus {
 	background-color: #f8f8f8;
 	display: block;
 	float: left;
-	text-align: justify;
+	/* text-align: justify; */
 	margin-top: 5px;
+	border: 2px solid #c0c0c0;
 	margin-bottom: 5px;
 	border-radius: 5px;
-	padding: 15px 15px;
+	padding: 15px;
 	width: 100%;
 }
 
 .mu-skill-icon-box h4 {
 	display: inline;
-	color: #252525;	
+	color: #252525;
 }
 
 .mu-skill-icon-box {
 	display: block;
 	font-size: 40px;
-	 /* padding: 5px ; */
+	/* padding: 5px ; */
 	/* border: 2px solid #43CD80; */
 	/* border-radius: 50%; */
 	/* width: 90px; */
@@ -517,7 +525,6 @@ button:focus {
 	border: 2px solid #43CD80;
 	background-color: #ffffff;
 	border-radius: 5px;
-	
 }
 
 .mu-pro-percentage {
